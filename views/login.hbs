@@ -1,0 +1,39 @@
+    <h2>Registre sus datos</h2>
+
+    <form id="formulario">
+      <div class="form" id="form-nombre">
+        <label for="nombre" class="form-label">Nombre</label>
+        <div class="form-input">
+          <input class="inputs" type="text" name="nombre" placeholder="Ingrese su nombre">
+          <i class="form-validar fa-regular fa-circle-xmark"></i>
+        </div>
+        <p class="form-error">El nombre solo puede contener letras</p>
+      </div>
+
+      <div class="form" id="form-correo">
+        <label for="correo" class="form-label">Correo Electronico</label>
+        <div class="form-input">
+          <input class="inputs" type="email" name="correo" id="correo" placeholder="Ingrese su correo@correo.com">
+          <i class="form-validar fa-regular fa-circle-xmark"></i>
+        </div>
+        <p class="form-error">Completar el correo como el ejemplo</p>
+      </div>
+
+      <div class="form" id="form-telefono">
+        <label for="telefono" class="form-label">Telefono</label>
+        <div class="form-input">
+          <input class="inputs" type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono sin guion">
+          <i class="form-validar fa-regular fa-circle-xmark"></i>
+        </div>
+        <p class="form-error">El telefono solo puede contener numeros</p>
+      </div>
+
+      <div class="form-mensaje" id="form-mensaje">
+        <p><i class="fas fa-exclamation-triangle"></i> Completar el formulario correctamente.</p>
+      </div>
+
+      <div class="form form-btn-anadir">
+        <button type="submit" class="form-btn">Añadir usuario</button>
+        <p class="form-enviado" id="form-enviado"> Formulario Enviado</p>
+      </div>
+    </form>
